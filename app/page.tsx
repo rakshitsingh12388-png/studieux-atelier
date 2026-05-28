@@ -37,7 +37,7 @@ export default function Home() {
         {/* Desktop Nav - centered horizontally at mid-page */}
         <div className="hidden md:flex items-center gap-[62px] lg:gap-[192px]">
           <Link
-            href="/index"
+            href="/projects"
             className="font-brand text-2xl tracking-[0.08em] text-[#888888] hover:opacity-70 transition-opacity"
           >
             INDEX

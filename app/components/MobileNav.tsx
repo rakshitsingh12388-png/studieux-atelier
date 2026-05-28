@@ -35,7 +35,7 @@ export default function MobileNav() {
             ✕
           </button>
           {[
-            { href: '/index', label: 'INDEX' },
+            { href: '/projects', label: 'INDEX' },
             { href: '/gallery', label: 'GALLERY' },
             { href: '/studio', label: 'STUDIO' },
           ].map((item) => (

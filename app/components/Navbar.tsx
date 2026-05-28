@@ -20,8 +20,8 @@ export default function Navbar({ variant = 'light' }: NavbarProps) {
       {/* Nav Links */}
       <div className="flex items-center gap-[50px] lg:gap-[192px]">
         <Link
-          href="/index"
-          className={`font-brand text-2xl tracking-[0.08em] ${textColor} hover:opacity-70 transition-opacity ${pathname === '/index' ? 'underline underline-offset-4' : ''}`}
+          href="/projects"
+          className={`font-brand text-2xl tracking-[0.08em] ${textColor} hover:opacity-70 transition-opacity ${pathname === '/projects' ? 'underline underline-offset-4' : ''}`}
         >
           INDEX
         </Link>

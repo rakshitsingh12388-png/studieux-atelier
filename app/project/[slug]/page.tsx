@@ -150,7 +150,7 @@ export default function ProjectPage({ params }: Props) {
             </Link>
           ) : <span />}
           <Link
-            href="/index"
+            href="/projects"
             className="font-brand text-[18px] tracking-[0.1em] text-[#888888] hover:opacity-60 transition-opacity"
           >
             INDEX
