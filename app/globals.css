@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand-gray: #888888;
+  --brand-dark: #373737;
+  --brand-black: #222222;
+  --brand-light: #ededed;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Anonymous Pro', monospace;
+  background: #ffffff;
+  color: var(--brand-dark);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Nav brand name */
+.font-brand {
+  font-family: 'Cormorant Garamond', serif;
+  letter-spacing: 0.12em;
+}
+
+/* Project list hover */
+.project-row {
+  transition: opacity 0.2s ease;
+}
+.project-row:hover {
+  opacity: 0.6;
+}
+
+/* Gallery image hover */
+.gallery-img {
+  transition: opacity 0.3s ease;
+}
+.gallery-img:hover {
+  opacity: 0.8;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--brand-gray);
+}
