@@ -252,8 +252,7 @@ export const projects: Project[] = [
       { src: '/images/projects/hacienda-img4.png', alt: 'Hacienda — courtyard', full: false },
       { src: '/images/projects/hacienda-img5.png', alt: 'Hacienda — pool', full: false },
     ],
-    hasDrawing: true,
-    drawingImage: '/images/projects/golf-greens-residence-drawing.png',
+    hasDrawing: false,
   },
   {
     slug: 'sfm-living',
