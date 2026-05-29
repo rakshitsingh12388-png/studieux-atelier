@@ -20,14 +20,6 @@ const team = [
   { name: 'Janhavi Singh', role: 'Interior Design Intern' },
 ]
 
-const awards = [
-  'IIID Regional Design Award 2023',
-  'Times 40 Under 40 — Architecture',
-  'Design Excellence Recognition — FOAID 2022',
-  'Best Hospitality Interior — Design Journal 2023',
-  'Emerging Studio of the Year — India Design Forum',
-  'Architecture + Design Award for Residential 2021',
-]
 
 export default function StudioPage() {
   return (
@@ -40,7 +32,7 @@ export default function StudioPage() {
           className="relative overflow-hidden"
           style={{ marginLeft: 'clamp(160px, 17%, 248px)', marginRight: 0 }}
         >
-          <div className="relative w-full" style={{ aspectRatio: '1238 / 570' }}>
+          <div className="relative w-full" style={{ aspectRatio: '861 / 627' }}>
             <Image
               src="/images/studio.png"
               alt="Studieux Atelier Studio"
@@ -102,28 +94,6 @@ export default function StudioPage() {
                     style={{ fontFamily: 'var(--font-anonymous-pro), monospace' }}
                   >
                     {member.role}
-                  </span>
-                </div>
-              ))}
-            </div>
-          </section>
-
-          {/* AWARDS */}
-          <section className="grid grid-cols-[200px_1fr] gap-8 items-start max-w-[900px]">
-            <span
-              className="text-xs tracking-[0.15em] text-[#1a1a1a] font-bold pt-1"
-              style={{ fontFamily: 'var(--font-anonymous-pro), monospace' }}
-            >
-              AWARDS
-            </span>
-            <div className="w-full">
-              {awards.map((award, i) => (
-                <div key={i} className="py-[9px] border-b border-[#e8e6e2]">
-                  <span
-                    className="text-[0.9rem] text-[#444]"
-                    style={{ fontFamily: 'var(--font-anonymous-pro), monospace' }}
-                  >
-                    {award}
                   </span>
                 </div>
               ))}
