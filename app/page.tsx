@@ -48,7 +48,7 @@ export default function Home() {
             {/* Nav links */}
             <div className="flex items-center gap-10 pr-12">
               {[
-                { href: '/index', label: 'INDEX' },
+                { href: '/work', label: 'INDEX' },
                 { href: '/gallery', label: 'GALLERY' },
                 { href: '/studio', label: 'STUDIO' },
               ].map(({ href, label }) => (
@@ -73,7 +73,7 @@ export default function Home() {
           style={{ background: 'rgba(232,228,219,0.92)' }}
         >
           {[
-            { href: '/index', label: 'INDEX' },
+            { href: '/work', label: 'INDEX' },
             { href: '/gallery', label: 'GALLERY' },
             { href: '/studio', label: 'STUDIO' },
           ].map(({ href, label }) => (
